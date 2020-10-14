@@ -1,2 +1,2 @@
 # role-baseinstall
-Ansible role with basic installation steps.
+Ansible playbook with basic installation steps.
