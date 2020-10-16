@@ -1,0 +1,21 @@
+[submodule "tasks/role_bi_packages_min"]
+	path = tasks/role_bi_packages_min
+	url = git@github.com:steuerfrau/role_bi_packages_min.git
+[submodule "roles/role_bi_packages_min"]
+	path = roles/role_bi_packages_min
+	url = git@github.com:steuerfrau/role_bi_packages_min.git
+[submodule "roles/role_bi_packages_max"]
+	path = roles/role_bi_packages_max
+	url = git@github.com:steuerfrau/role_bi_packages_max.git
+[submodule "roles/role_bi_packages_net"]
+	path = roles/role_bi_packages_net
+	url = git@github.com:steuerfrau/role_bi_packages_net.git
+[submodule "roles/role_bi_sysctl"]
+	path = roles/role_bi_sysctl
+	url = git@github.com:steuerfrau/role_bi_sysctl.git
+[submodule "roles/role_bi_hostname"]
+	path = roles/role_bi_hostname
+	url = git@github.com:steuerfrau/role_bi_hostname.git
+[submodule "roles/role_bi_time_chrony"]
+	path = roles/role_bi_time_chrony
+	url = git@github.com:steuerfrau/role_bi_time_chrony.git

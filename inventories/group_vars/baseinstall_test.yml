@@ -1,0 +1,8 @@
+role_bi_hostname.default_domain: "hoppetosse.local"
+# role_bi_hostname.etc_hosts_entries:
+#   "127.0.0.1": "localhost localhost.localdomain localhost4 localhost4.localdomain4"
+#   "::1": "localhost localhost.localdomain localhost6 localhost6.localdomain6"
+#   192.168.122.10: ansible-master.hoppetosse.local ansible-master
+#   192.168.122.20: elk.hoppetosse.local elk
+#   192.168.122.40: acs-management.hoppetosse.local acs-management
+

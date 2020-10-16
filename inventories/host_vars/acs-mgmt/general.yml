@@ -1,0 +1,28 @@
+# role_mod_repositories_yum_repos:
+#   - name: elasticsearch
+#     description: Elasticsearch repository for 7.x packages
+#     file: "Elasticsearch-7"
+#     baseurl: https://artifacts.elastic.co/packages/7.x/yum
+#     gpgcheck: 0
+#     enabled: "no"
+# role_bi_selinux_selinux_mode: permissive
+# # role_bi_time_chrony_timeservers:
+# #   - 0.centos.pool.ntp.org
+# #   - 1.centos.pool.ntp.org
+# #   - 2.centos.pool.ntp.org
+# #   - 3.centos.pool.ntp.org
+role_app_nfs_exports:
+  /export/secondary: "*(rw,async,no_root_squash,no_subtree_check)"
+  /export/primary: "*(rw,async,no_root_squash,no_subtree_check)"
+# some_variable_with_a_default: value_from_host_vars
+# role_mod_netbridge_stdliux_routing_bridges:
+#   - name: cloudbr0
+#     ipaddr: 10.10.10.1/24
+role_mod_libvirt_net_create_networklist:
+  - name: libvirtbr0
+    forward_dev: eth0
+    ipv4_address: 10.10.0.1
+    netmask: 255.255.255.0
+    range_start: 10.10.0.64
+    range_end: 10.10.0.254
+role_app_mysql_target_version: "5.7"
