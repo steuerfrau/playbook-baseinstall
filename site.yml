@@ -2,7 +2,7 @@
 # file: site.yml
 - hosts: all
   roles:
-    - role_bi_packages_minimum
+    - role_bi_packages_min
     - role_bi_packages_max
     - role_bi_packages_net
     - role_bi_sysctl
