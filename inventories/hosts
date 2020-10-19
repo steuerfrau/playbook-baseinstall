@@ -1,9 +1,0 @@
-# file: testing
-
-# Possible values for baseinstall_type are:
-#   - virtualmachine
-#   - default
-
-[baseinstall_test]
-# elk baseinstall_type=virtualmachine
-acs-mgmt baseinstall_type=virtualmachine

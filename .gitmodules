@@ -19,3 +19,7 @@
 [submodule "roles/role_bi_time_chrony"]
 	path = roles/role_bi_time_chrony
 	url = git@github.com:steuerfrau/role_bi_time_chrony.git
+[submodule "inventories"]
+	path = inventories
+	url = git@github.com:steuerfrau/inventories.git
+	branch = coco
