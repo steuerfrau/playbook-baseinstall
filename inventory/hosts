@@ -1,0 +1,12 @@
+# file: testing
+
+# Possible values for baseinstall_type are:
+#   - virtualmachine
+#   - default
+
+[baseinstall_test]
+# elk baseinstall_type=virtualmachine
+# tpl-deb-10-stg1 baseinstall_type=virtualmachine
+master8 baseinstall_type=virtualmachine
+slave10 baseinstall_type=virtualmachine
+# acs-mgmt baseinstall_type=virtualmachine
